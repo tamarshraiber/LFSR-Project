@@ -30,17 +30,17 @@ Welcome to the **<span style="color:red">LFSIR-Project</span>**! This project de
 ---
 
 ## 📂 <span style="color:red">Project Structure</span>
- - ** LFSR_if.sv**: - Interface defining LFSR signals
- - ** LFSR_seq_item.sv**: // Sequence item class for transactions
- - ** LFSR_sequencer.sv**: // UVM sequencer
- - ** LFSR_sequence.sv**: // Sequence generation
- - ** LFSR_seq_lib.sv**: // Sequence library
- - ** LFSR_monitor.sv**: // Monitor for capturing signals
- - ** LFSR_driver.sv**: // Driver for sending transactions
- - ** LFSR_scoreboard.sv**: // Scoreboard to check results
- - ** LFSR_agent.sv**: // Agent combining driver, monitor, sequencer
- - ** LFSR_env.sv**: // Environment wrapping agents and scoreboard
- - ** LFSR_test.sv**: // Top-level UVM test
+ - **LFSR_if.sv**: // Interface defining LFSR signals
+ - **LFSR_seq_item.sv**: // Sequence item class for transactions
+ - **LFSR_sequencer.sv**: // UVM sequencer
+ - **LFSR_sequence.sv**: // Sequence generation
+ - **LFSR_seq_lib.sv**: // Sequence library
+ - **LFSR_monitor.sv**: // Monitor for capturing signals
+ - **LFSR_driver.sv**: // Driver for sending transactions
+ - **LFSR_scoreboard.sv**: // Scoreboard to check results
+ - **LFSR_agent.sv**: // Agent combining driver, monitor, sequencer
+ - **LFSR_env.sv**: // Environment wrapping agents and scoreboard
+ - **LFSR_test.sv**: // Top-level UVM test
 
    Each component is **modular**, making it easy to **extend or reuse** in other projects. 🔧
 
