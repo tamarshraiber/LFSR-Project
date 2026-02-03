@@ -1,4 +1,4 @@
-# 🎲 <span style="color:red">LFSIR-Project</span>
+# 🎲 <span style="color:red">LFSR-Project</span>
 
 ***An academic verification project using Verilog, SystemVerilog, and UVM***  
 
