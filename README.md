@@ -30,7 +30,7 @@ Welcome to the **<span style="color:red">LFSIR-Project</span>**! This project de
 ---
 
 ## 📂 <span style="color:red">Project Structure</span>
- - ** LFSR_if.sv**: // Interface defining LFSR signals
+ - ** LFSR_if.sv**: - Interface defining LFSR signals
  - ** LFSR_seq_item.sv**: // Sequence item class for transactions
  - ** LFSR_sequencer.sv**: // UVM sequencer
  - ** LFSR_sequence.sv**: // Sequence generation
