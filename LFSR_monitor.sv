@@ -27,7 +27,6 @@ class LFSR_monitor extends uvm_monitor;
 
   
     virtual task run_phase (uvm_phase phase);
-        item_out = LFSR_seq_item::type_id::create("item_out", this);
         fork
             forever begin
             @(posedge LFSR_if_i.clk);
