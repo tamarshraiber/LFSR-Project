@@ -2,8 +2,7 @@ class LFSR_monitor extends uvm_monitor;
    `uvm_component_utils (LFSR_monitor)
   
     virtual LFSR_if LFSR_if_i;
-    bit enable_check = 1;
-
+   
     uvm_analysis_port #(LFSR_seq_item) mon_analysis_port_in;
     uvm_analysis_port #(LFSR_seq_item) mon_analysis_port_out;
   
